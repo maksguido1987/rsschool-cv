@@ -1,0 +1,38 @@
+@media screen and (max-width: 797px) {
+   .header-cv {
+      padding: 15px;
+      display: block;
+   }
+   .header-cv__photo {
+      margin: 0 auto 20px;
+   }
+   .header-cv__body {
+      margin: 0;
+      display: block;
+   }
+   .header-cv__body-name {
+      margin: 0 0 20px 0;
+      padding: 0;
+      font-size: 20px;
+      border: none;
+      text-align: center;
+   }
+   .header-cv__body-name:before,
+   .header-cv__body-name:after {
+      display: none;
+   }
+   .header-cv__body-contacts {
+      padding: 0;
+      max-width: 200px;
+      margin: 0 auto;
+   }
+   .header-cv__body-contacts a {
+      font-size: 12px;
+   }
+}
+
+@media screen and (max-width: 454px) {
+   .section__title {
+      font-size: 30px;
+   }
+}
