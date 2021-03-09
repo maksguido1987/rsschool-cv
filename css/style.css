@@ -29,9 +29,6 @@ body {
 
 /*======================HEADER=====================*/
 
-.cv {
-   
-}
 .header-cv {
    background-image: linear-gradient(to bottom, #232526, #414345);
    padding: 50px;
@@ -128,7 +125,7 @@ body {
 /*======================MAIN=====================*/
 
 .main-cv {
-   padding: 0 50px 80px;
+   padding: 0 50px 10px;
    background-color: #fff;
 }
 .main-cv__section {
@@ -182,4 +179,7 @@ body {
    color: #808080;
    background: url("../images/github.png") left center / 22px no-repeat;
 }
-
+.footer {
+   padding: 0 50px 80px;
+   background-color: #fff;
+}
